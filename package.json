@@ -1,0 +1,28 @@
+{
+	"private": true,
+	"workspaces": {
+		"packages": [
+			"libraries/*",
+			"projects/*"
+		],
+		"nohoist": [
+			"**"
+		]
+	},
+	"scripts": {
+
+		"open": "git submodule update --init --recursive",
+		"checkout": "git submodule foreach --recursive git checkout",
+		"pull": "git submodule update --recursive",
+
+		"watch": "yarn workspace $0 watch",
+		"test": "yarn workspace $0 test",
+		"build": "yarn workspace $0 build",
+		"dev": "yarn workspace $0 dev",
+		"serve": "ts-node --skip-project --project ./config/node.tsconfig.json src/backend/index.ts"
+	},
+	"dependencies": {
+		"lerna": "^3.22.1",
+		"typescript": "^4.1.5"
+	}
+}

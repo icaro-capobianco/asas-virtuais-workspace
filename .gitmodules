@@ -1,0 +1,15 @@
+[submodule "opensource/asas-virtuais-preact"]
+	path = opensource/asas-virtuais-preact
+	url = https://github.com/icaro-capobianco/asas-virtuais-preact
+	branch = master
+	ignore = dirty
+[submodule "opensource/asas-virtuais-airtable"]
+	path = opensource/asas-virtuais-airtable
+	url = https://github.com/icaro-capobianco/asas-virtuais-airtable
+	branch = master
+	ignore = dirty
+[submodule "opensource/asas-virtuais-ts"]
+	path = opensource/asas-virtuais-ts
+	url = https://github.com/icaro-capobianco/asas-virtuais-ts
+	branch = master
+	ignore = dirty
