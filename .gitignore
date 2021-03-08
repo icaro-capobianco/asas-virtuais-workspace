@@ -4,9 +4,3 @@ yarn.lock
 .pnp.js
 .vscode
 pnpm-lock.yaml
-libraries/*
-!libraries/.gitkeep
-opensource/*
-!opensource/.gitkeep
-projects/*
-!projects/.gitkeep
