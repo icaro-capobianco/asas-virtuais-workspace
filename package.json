@@ -10,11 +10,9 @@
 		]
 	},
 	"scripts": {
-
 		"open": "git submodule update --init --recursive",
 		"checkout": "git submodule foreach --recursive git checkout",
 		"pull": "git submodule update --recursive",
-
 		"watch": "yarn workspace $0 watch",
 		"test": "yarn workspace $0 test",
 		"build": "yarn workspace $0 build",
@@ -23,6 +21,6 @@
 	},
 	"dependencies": {
 		"lerna": "^3.22.1",
-		"typescript": "^4.1.5"
+		"typescript": "^4.2.3"
 	}
 }
