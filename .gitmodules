@@ -8,3 +8,8 @@
 	url = https://github.com/icaro-capobianco/asas-virtuais-ts
 	branch = master
 	ignore = dirty
+[submodule "libraries/abstract-data-layer"]
+	path = libraries/abstract-data-layer
+	url = https://github.com/icaro-capobianco/abstract-data-layer
+	branch = master
+	ignore = dirty

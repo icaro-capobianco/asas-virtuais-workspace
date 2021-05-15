@@ -23,6 +23,6 @@ node_modules
 size-plugin.json
 build
 
-projects/**/*
-libraries/**/*
-opensource/**/*
+projects/*/*
+libraries/*/*
+opensource/*/*
